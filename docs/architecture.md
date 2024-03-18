@@ -80,6 +80,15 @@ If the user is involved in research, project cards should be copied and edited s
 
 #### 2.g. Articles
 
-These are 'blog posts' that I am adding to show what I am working on in personal projects, the same way a Medium Article might be on an e-portfolio. This is to reduce complexity so a visitor doesn't need to dig into github repositories, and can instead view my writing within the e-portfolio
+These are cards of 'blog posts' that I am adding to show what I am working on in personal projects, the same way a Medium Article might be on an e-portfolio. This is to reduce complexity so a visitor doesn't need to dig into github repositories, and can instead view my writing within the e-portfolio.
+
+From the last project, a mix of React-Markdown, Remark and Rehype will be used to render the content. This page will be added once the homepage is completed.
 
 [File](link-to-file)
+
+## General Layout:
+
+Within the Site, the following should be present:
+
+- Switch to toggle between light and dark mode(like in the last portfolio, re-make the solarish light and dark themes)
+- Footer that states this was built by me to show I'm not just using Wix, and add a link to the repository
