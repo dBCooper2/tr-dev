@@ -1,0 +1,40 @@
+.pageContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summaryContainer {
+    flex: 0 0 30%; /* Static width for the summary */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.contentContainer {
+    flex: 0 0 65%; /* Fluid width for the content */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100vh; /* Full viewport height */
+}
+
+.scrollableContent {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .pageContainer {
+        flex-direction: column; /* Stack items in a single column */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .contentContainer {
+        flex: 0 0 100%; /* Full width for the content */
+        height: auto; /* Auto height */
+        overflow-y: visible; /* Disable vertical scrolling */
+    }
+
+    .summaryContainer {
+        flex: 0 0 100%; /* Full width for the summary */
+        margin-bottom: 20px; /* Add some spacing */
+    }
+}
